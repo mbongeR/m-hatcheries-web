@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-Hatcheries Services | Premium Poultry Hatchery in Zimbabwe</title>
+    <meta name="description" content="M-Hatcheries Services – Proudly Zimbabwean. Specializing in high-quality poultry hatchery solutions, incubator sales & repairs, and expert technical advice.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gold-badge { @apply inline-block bg-yellow-100 text-yellow-700 text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full; }
+        .btn-primary { @apply bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-6 py-3 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg active:scale-95 inline-flex items-center gap-2; }
+        .btn-outline { @apply border-2 border-yellow-400 text-yellow-500 hover:bg-yellow-400 hover:text-gray-900 font-semibold px-6 py-3 rounded-xl transition-all duration-200 inline-flex items-center gap-2; }
+        .card { @apply bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200 p-6; }
+        .section-container { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="text-gray-900 bg-white">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <div class="section-container">
+            <div class="flex items-center justify-between h-16">
+                <a href="#" class="flex items-center gap-2 group">
+                    <div class="w-9 h-9 bg-yellow-400 rounded-xl flex items-center justify-center shadow-md">
+                        <i data-lucide="egg" class="w-5 h-5 text-gray-900"></i>
+                    </div>
+                    <div class="leading-tight">
+                        <p class="text-sm font-bold text-gray-900">M-Hatcheries</p>
+                        <p class="text-[10px] text-gray-400 font-medium uppercase tracking-widest">Services</p>
+                    </div>
+                </a>
+                <div class="hidden md:flex items-center gap-1">
+                    <a href="#home" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-yellow-50 hover:text-gray-900">Home</a>
+                    <a href="#about" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-yellow-50 hover:text-gray-900">About</a>
+                    <a href="#services" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-yellow-50 hover:text-gray-900">Services</a>
+                    <a href="#inventory" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-yellow-50 hover:text-gray-900">Inventory</a>
+                    <a href="#blog" class="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:bg-yellow-50 hover:text-gray-900">News & Tips</a>
+                    <a href="#contact" class="px-4 py-2 rounded-lg text-sm font-medium bg-yellow-400 text-gray-900">Contact Us</a>
+                </div>
+                <button class="md:hidden p-2" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 pb-4">
+            <div class="flex flex-col px-4 pt-2 gap-1">
+                <a href="#home" class="px-4 py-3 rounded-xl text-sm font-medium hover:bg-yellow-50">Home</a>
+                <a href="#about" class="px-4 py-3 rounded-xl text-sm font-medium hover:bg-yellow-50">About</a>
+                <a href="#services" class="px-4 py-3 rounded-xl text-sm font-medium hover:bg-yellow-50">Services</a>
+                <a href="#inventory" class="px-4 py-3 rounded-xl text-sm font-medium hover:bg-yellow-50">Inventory</a>
+                <a href="#blog" class="px-4 py-3 rounded-xl text-sm font-medium hover:bg-yellow-50">News & Tips</a>
+                <a href="#contact" class="px-4 py-3 rounded-xl text-sm font-medium hover:bg-yellow-50">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section (Hero) -->
+    <section id="home" class="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-24 sm:py-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-yellow-400 rounded-full blur-3xl"></div>
+            <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-yellow-400 rounded-full blur-3xl"></div>
+        </div>
+        <div class="section-container relative">
+            <div class="max-w-3xl">
+                <span class="gold-badge mb-6">Zimbabwean Excellence</span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+                    ELEVATE YOUR <span class="text-yellow-400">POULTRY PRODUCTION</span> WITH M-HATCHERY SERVICES
+                </h1>
+                <p class="text-gray-300 text-lg sm:text-xl mb-8">
+                    Discover how our state-of-the-art incubators and expert guidance have transformed poultry production for farms of all sizes.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#services" class="btn-primary">Our Solutions <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    <a href="#contact" class="btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hatchery Status Banner -->
+    <div class="bg-yellow-400 py-4">
+        <div class="section-container flex flex-col sm:flex-row items-center justify-between gap-3 text-sm font-semibold">
+            <div class="flex items-center gap-2">
+                <span class="relative flex h-3 w-3">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-600 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-600"></span>
+                </span>
+                LIVE HATCHERY STATUS
+            </div>
+            <div class="flex flex-wrap gap-6">
+                <span><i data-lucide="egg" class="inline w-4 h-4 mr-1"></i> Currently Incubating: 1,200 eggs</span>
+                <span><i data-lucide="thermometer-sun" class="inline w-4 h-4 mr-1"></i> Next Hatch Date: March 23, 2026</span>
+            </div>
+            <p class="text-2xl font-bold text-gray-800 italic hidden lg:block">"From Egg to Chick – We Make It Happen."</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="section-container">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="gold-badge mb-4">Our Story</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-6">A Zimbabwean Hatchery Built on Trust</h2>
+                    <div class="space-y-4 text-gray-600 leading-relaxed">
+                        <p>M-Hatcheries Services is a proudly Zimbabwean local business based in the heart of the community, specializing in high-quality poultry hatchery solutions. Established in <strong>2020</strong>, the company is dedicated to supporting farmers and poultry enthusiasts by providing reliable, affordable, and professional services.</p>
+                        <p>Based in <strong>Entumbane, Bulawayo</strong>, we serve clients across the region with tailored solutions for poultry producers of all sizes.</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-2xl p-6 text-center">
+                        <p class="text-3xl font-extrabold text-yellow-600">2020</p>
+                        <p class="text-xs text-gray-500 mt-1 font-medium">Year Founded</p>
+                    </div>
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-2xl p-6 text-center">
+                        <p class="text-3xl font-extrabold text-yellow-600">95%</p>
+                        <p class="text-xs text-gray-500 mt-1 font-medium">Hatch Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50 border-y border-gray-100">
+        <div class="section-container text-center mb-14">
+            <span class="gold-badge mb-3">Our Solutions</span>
+            <h2 class="text-3xl sm:text-4xl font-bold">Leading While Others Follow In Poultry Industry</h2>
+        </div>
+        <div class="section-container grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="card">
+                <i data-lucide="egg" class="w-10 h-10 text-yellow-500 mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">Hatchery Services</h3>
+                <p class="text-sm text-gray-500">Professional incubation for Road Runner and exotic breeds.</p>
+            </div>
+            <div class="card">
+                <i data-lucide="wrench" class="w-10 h-10 text-yellow-500 mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">Repair & Servicing</h3>
+                <p class="text-sm text-gray-500">Expert repair for Solar and Electric incubators of all sizes.</p>
+            </div>
+            <div class="card">
+                <i data-lucide="lightbulb" class="w-10 h-10 text-yellow-500 mb-4"></i>
+                <h3 class="text-lg font-bold mb-2">Technical Advice</h3>
+                <p class="text-sm text-gray-500">Expert guidance on egg selection and poultry management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inventory Section -->
+    <section id="inventory" class="py-20 bg-white">
+        <div class="section-container">
+            <h2 class="text-3xl font-bold mb-8">Live Inventory Dashboard</h2>
+            <div class="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+                <table class="w-full text-sm">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="text-left px-6 py-4 font-semibold text-gray-600 uppercase tracking-wider text-xs">Product</th>
+                            <th class="text-left px-6 py-4 font-semibold text-gray-600 uppercase tracking-wider text-xs">Stock</th>
+                            <th class="text-left px-6 py-4 font-semibold text-gray-600 uppercase tracking-wider text-xs">Availability</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100">
+                        <tr class="hover:bg-yellow-50">
+                            <td class="px-6 py-4 font-medium">Cross-breed Road Runner Eggs</td>
+                            <td class="px-6 py-4 text-green-600 font-bold">480 eggs</td>
+                            <td class="px-6 py-4 text-gray-500">Available Now (Up to 95% Hatch Rate)</td>
+                        </tr>
+                        <tr class="hover:bg-yellow-50">
+                            <td class="px-6 py-4 font-medium">Day-old Road Runner Chicks</td>
+                            <td class="px-6 py-4 text-green-600 font-bold">85 chicks</td>
+                            <td class="px-6 py-4 text-gray-500">Available Now</td>
+                        </tr>
+                        <tr class="hover:bg-yellow-50">
+                            <td class="px-6 py-4 font-medium">Solar & Electric Incubators</td>
+                            <td class="px-6 py-4 text-green-600 font-bold">6 units</td>
+                            <td class="px-6 py-4 text-gray-500">288 to 5000 egg capacity</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 bg-gray-50">
+        <div class="section-container">
+            <h2 class="text-3xl font-bold mb-10 flex items-center gap-2">
+                <i data-lucide="newspaper" class="text-yellow-500"></i> News & Poultry Tips
+            </h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <article class="card border-l-4 border-l-yellow-400">
+                    <span class="gold-badge mb-2">News</span>
+                    <h3 class="text-xl font-bold mb-4">The Hornbill-Type: A New Hardy Breed</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">Successful cross-breeding of exotic chickens with Road Runners to develop a highly disease-tolerant breed capable of withstanding harsh climates.</p>
+                </article>
+                <div class="card">
+                    <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                        <i data-lucide="book-open" class="text-yellow-500"></i> Incubation Tips
+                    </h3>
+                    <ul class="text-sm text-gray-600 space-y-2">
+                        <li><i data-lucide="check-circle" class="inline w-4 h-4 text-yellow-500 mr-1"></i> Collect eggs 3x daily.</li>
+                        <li><i data-lucide="check-circle" class="inline w-4 h-4 text-yellow-500 mr-1"></i> No cracked eggs in incubator.</li>
+                        <li><i data-lucide="check-circle" class="inline w-4 h-4 text-yellow-500 mr-1"></i> Maintain good cock:hen ratio.</li>
+                        <li><i data-lucide="check-circle" class="inline w-4 h-4 text-yellow-500 mr-1"></i> Select clean, medium-sized eggs.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="section-container">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-8">Get In Touch</h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="phone" class="w-6 h-6 text-yellow-500 mt-1"></i>
+                            <div>
+                                <p class="font-bold">+263 772 287 864</p>
+                                <p class="font-bold">+263 712 023 451</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="map-pin" class="w-6 h-6 text-yellow-500 mt-1"></i>
+                            <p class="font-bold">Entumbane, Bulawayo, Zimbabwe</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="card space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full border border-gray-200 rounded-xl px-4 py-3">
+                    <input type="email" placeholder="Your Email" class="w-full border border-gray-200 rounded-xl px-4 py-3">
+                    <select class="w-full border border-gray-200 rounded-xl px-4 py-3 bg-white">
+                        <option>General Inquiry</option>
+                        <option>Chick Order</option>
+                        <option>Incubator Service</option>
+                    </select>
+                    <textarea rows="4" placeholder="Your Message" class="w-full border border-gray-200 rounded-xl px-4 py-3 mb-4"></textarea>
+                    <button type="button" class="btn-primary w-full justify-center">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="section-container text-center">
+            <p class="text-white font-bold mb-4">M-Hatcheries Services</p>
+            <p class="text-sm">© 2026 M-Hatcheries Services. Proudly Zimbabwean.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
